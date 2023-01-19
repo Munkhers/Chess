@@ -1,0 +1,99 @@
+.chess-container {
+    width: 480px;
+    height: 480px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    box-shadow: 0px -1px 120px -26px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px -1px 120px -26px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -1px 120px -26px rgba(0,0,0,1);
+}
+.black-tile {
+    background-color: lightgray;
+}
+.white-tile {
+    background-color: white;
+}
+
+.tile {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.unit-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canClick:hover {
+    cursor: pointer;
+}
+
+.cantClick:hover {
+    cursor: not-allowed;
+}
+
+.canMove {
+    border: 5px solid limegreen;
+    height: 52px;
+    width: 52px;
+}
+
+.canPwn {
+    border: 3px solid red;
+    height: 52px;
+    width: 52px;
+}
+
+.canCastling {
+    border: 3px solid #bfbfff;
+    height: 64px;
+    width: 64px;
+}
+
+.activeUnit {
+    border: 3px solid #404048;
+    height: 64px;
+    width: 64px;
+}
+
+.start-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start-background {
+    height: 100vh;
+    width: 100vw;
+    position:relative;
+}
+
+.start-button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10vh;
+    box-shadow: 0px -1px 120px -26px rgb(249, 249, 249);
+    -webkit-box-shadow: 0px -1px 120px -26px rgb(249, 246, 246);
+    -moz-box-shadow: 0px -1px 120px -26px rgb(249, 244, 244);
+}
+h5 {
+    color: white;
+}
+.new-game-btn {
+    margin-top: 20px;
+}
+.box {
+    display:flex;
+    flex-direction: column;
+}

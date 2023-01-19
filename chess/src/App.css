@@ -1,0 +1,25 @@
+.chess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 110vh;
+  /* background-image: linear-gradient(to right top, 
+  #2f2f53, 
+  #413f5e, 
+  #525068, 
+  #636273, 
+  #75747e, 
+  #82808b, 
+  #918b97, 
+  #9f97a4, 
+  #b29db1, 
+  #c9a2b9, 
+  #e2a7bc, 
+  #faacba); */
+background: #FFFFFF;
+background: -webkit-linear-gradient(top left, #FFFFFF, #040176);
+background: -moz-linear-gradient(top left, #FFFFFF, #040176);
+background: linear-gradient(to bottom right, #FFFFFF, #040176);
+}
+
